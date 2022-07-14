@@ -1,0 +1,241 @@
+﻿@model List<LaundryManagementSystem.Models.PriceModel>
+@{
+    ViewBag.Title = "Pricing";
+    Layout = "~/Views/Shared/_HomeLayoutPage.cshtml";
+}
+
+<br />
+<br />
+<br />
+<br />
+<!-- ABOUT SECTION -->
+<div id="services" class="section services">
+    <div class="container">
+        <!--  -->
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <div class="page-title">
+                    <h2 class="lead">OUR PRICING TABLE</h2>
+                    <p class="sublead">According to our customer's convinience, We are giving the packages with very reasonable Price.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                if (item.Type == "Regular")
+                {
+                    <div class="col-sm-12 col-md-3">
+                        <div class="panel panel-default panel-pricing wow fadeInDown">
+
+                            <header class="panel-heading">
+                                <h3>Regular</h3>
+                                <div class="price">
+                                    <sup>Rs</sup>@item.Price
+                                </div>
+                            </header>
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tbody>
+                                        <tr><td>@item.Lbs lbs</td></tr>
+                                        <tr><td>Home Delivery</td></tr>
+                                        @if (item.IsIron == "true")
+                                        {
+                                            <tr><td>Ironing</td></tr>
+                                        }
+                                        @if (item.IsPressing == "true")
+                                        {
+                                            <tr><td>Pressing</td></tr>
+                                        }
+                                        @if (item.IsDry == "true")
+                                        {
+                                            <tr><td>Dry Clean</td></tr>
+                                        }
+
+                                        @if (item.Perfume == "true")
+                                        {
+                                            <tr><td>Perfume</td></tr>
+                                        }
+                                        <tr><td>@item.Day Day Finish</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <footer class="panel-footer">
+                                <a href="/Home/Order?Id=@item.Id" class="btn btn-primary btn-block">ORDER NOW</a>
+                            </footer>
+
+
+                        </div>
+
+                    </div>
+                }
+            }
+
+            @foreach (var item in Model)
+            {
+
+
+                if (item.Type == "Medium")
+                {
+                    <div class="col-sm-12 col-md-3">
+                        <div class="panel panel-default panel-pricing wow fadeInDown">
+
+                            <header class="panel-heading">
+                                <h3>Medium</h3>
+                                <div class="price">
+                                    <sup>Rs</sup>@item.Price
+                                </div>
+                            </header>
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tbody>
+                                        <tr><td>@item.Lbs lbs</td></tr>
+                                        <tr><td>Home Delivery</td></tr>
+                                        @if (item.IsIron == "true")
+                                        {
+                                            <tr><td>Ironing</td></tr>
+                                        }
+                                        @if (item.IsPressing == "true")
+                                        {
+                                            <tr><td>Pressing</td></tr>
+                                        }
+                                        @if (item.IsDry == "true")
+                                        {
+                                            <tr><td>Dry Clean</td></tr>
+                                        }
+
+                                        @if (item.Perfume == "true")
+                                        {
+                                            <tr><td>Perfume</td></tr>
+                                        }
+                                        <tr><td>@item.Day Day Finish</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <footer class="panel-footer">
+                                <a  href="/Home/Order?Id=@item.Id" class="btn btn-primary btn-block">ORDER NOW</a>
+                            </footer>
+
+
+
+                        </div>
+
+                    </div>
+                }
+            }
+
+            @foreach (var item in Model)
+            {
+                if (item.Type == "Large")
+                {
+                    <div class="col-sm-12 col-md-3">
+                        <div class="panel panel-default panel-pricing wow fadeInDown">
+
+
+                            <header class="panel-heading">
+                                <h3>Large</h3>
+                                <div class="price">
+                                    <sup>Rs</sup>@item.Price
+                                </div>
+                            </header>
+
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tbody>
+                                        <tr><td>@item.Lbs lbs</td></tr>
+                                        <tr><td>Home Delivery</td></tr>
+                                        @if (item.IsIron == "true")
+                                        {
+                                            <tr><td>Ironing</td></tr>
+                                        }
+                                        @if (item.IsPressing == "true")
+                                        {
+                                            <tr><td>Pressing</td></tr>
+                                        }
+                                        @if (item.IsDry == "true")
+                                        {
+                                            <tr><td>Dry Clean</td></tr>
+                                        }
+                                        @if (item.Perfume == "true")
+                                        {
+                                            <tr><td>Perfume</td></tr>
+                                        }
+                                        <tr><td>@item.Day Day Finish</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <footer class="panel-footer">
+                                <a  href="/Home/Order?Id=@item.Id" class="btn btn-primary btn-block">ORDER NOW</a>
+                            </footer>
+
+                        </div>
+
+                    </div>
+                }
+            }
+
+            @foreach (var item in Model)
+            {
+
+                if (item.Type == "Premium")
+                {
+                    <div class="col-sm-12 col-md-3">
+                        <div class="panel panel-default panel-pricing wow fadeInDown">
+
+
+                            <header class="panel-heading">
+                                <h3>Premium</h3>
+                                <div class="price">
+                                    <sup>Rs</sup>@item.Price
+                                </div>
+                            </header>
+
+                            <div class="panel-body">
+                                <table class="table">
+                                    <tbody>
+                                        <tr><td>@item.Lbs lbs</td></tr>
+                                        <tr><td>Home Delivery</td></tr>
+                                        @if (item.IsIron == "true")
+                                        {
+                                            <tr><td>Ironing</td></tr>
+                                        }
+                                        @if (item.IsPressing == "true")
+                                        {
+                                            <tr><td>Pressing</td></tr>
+                                        }
+                                        @if (item.IsDry == "true")
+                                        {
+                                            <tr><td>Dry Clean</td></tr>
+                                        }
+                                        @if (item.Perfume == "true")
+                                        {
+                                            <tr><td>Perfume</td></tr>
+                                        }
+                                        <tr><td>@item.Day Day Finish</td></tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <footer class="panel-footer">
+                                <a  href="/Home/Order?Id=@item.Id" class="btn btn-primary btn-block">ORDER NOW</a>
+                            </footer>
+
+
+                        </div>
+
+                    </div>
+                }
+
+            }
+
+        </div>
+
+        <!--  -->
+
+
+
+
+    </div>
+</div>
+
+

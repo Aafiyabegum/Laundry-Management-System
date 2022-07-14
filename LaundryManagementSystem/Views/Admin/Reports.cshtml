@@ -1,0 +1,208 @@
+﻿
+@{
+    ViewBag.Title = "Reports";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+<!--/.span3-->
+<div class="span9">
+    <div class="content">
+        <div class="btn-controls">
+            <div class="btn-box-row row-fluid">
+                <div class="span8">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <a id="rpt1" class="btn-box small span4" style="cursor:pointer">
+                                <b>Last Month Orders Report</b>
+
+                            </a>
+                            <a id="rpt2" class="btn-box small span4" style="cursor:pointer">
+                                <b>All NewOrders Report</b>
+
+                            </a>
+                            <a id="rpt3" class="btn-box small span4" style="cursor:pointer">
+                                <b>All Completed Orders Report</b>
+                            </a>
+
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--/#btn-controls-->
+        <!--/.module-->
+    </div>
+    <!--/.content-->
+</div>
+<!--/.span9-->
+
+
+<div class="span9" id="spnplace" style="display:none">
+    <div class="content">
+
+        <div class="module" style="
+    width: 1000px;
+">
+            <div class="module-head">
+                <h3>Report</h3>
+            </div>
+            <div class="module-body">
+                <p>
+
+
+
+                </p>
+                <table id="example1" class="table display table-striped table-bordered table-condensed">
+                    <thead>
+                        <tr>
+                            <th>Order No</th>
+                            <th>Customer Name</th>
+                            <th>Price</th>
+                            <th>Type</th>
+                            <th>Status</th>
+
+                        </tr>
+                    </thead>
+
+                    <tbody id="ordertbl"></tbody>
+
+                </table>
+
+                <br />
+                <a id="downloadLink">Export to Excel</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@Scripts.Render("~/bundles/jquery")
+
+@section scripts {
+
+    <script type="text/javascript">
+
+
+
+        $(document).ready(function () {
+
+            $('#rpt1').click(function () {
+                $("#ordertbl").empty();
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: '/Admin/Reports',
+                    data: {
+                        reportname: 'rpt1'
+                    },
+                    success: function (Data) {
+
+                        $('#spnplace').css("display", "block");
+                        console.log(Data.Data.length);
+
+                        for (var i = 0; i < Data.Data.length; i++) {
+
+
+                            $("#ordertbl").append("<tr><td>" + Data.Data[i].OrderId + "</td><td>" + Data.Data[i].FirstName + "</td><td>" + Data.Data[i].Price + "</td><td>" + Data.Data[i].Type + "</td><td>" + Data.Data[i].Status + "</td></tr>");
+                        }
+
+                    }
+                })
+
+
+            });
+
+            $('#rpt2').click(function () {
+                $("#ordertbl").empty();
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: '/Admin/Reports',
+                    data: {
+                        reportname: 'rpt2'
+                    },
+                    success: function (Data) {
+
+                        $('#spnplace').css("display", "block");
+                        console.log(Data.Data.length);
+
+                        for (var i = 0; i < Data.Data.length; i++) {
+
+
+                            $("#ordertbl").append("<tr><td>" + Data.Data[i].OrderId + "</td><td>" + Data.Data[i].FirstName + "</td><td>" + Data.Data[i].Price + "</td><td>" + Data.Data[i].Type + "</td><td>" + Data.Data[i].Status + "</td></tr>");
+                        }
+
+                    }
+                })
+
+            });
+
+            $('#rpt3').click(function () {
+                $("#ordertbl").empty();
+                $.ajax({
+                    cache: false,
+                    type: "POST",
+                    url: '/Admin/Reports',
+                    data: {
+                        reportname: 'rpt3'
+                    },
+                    success: function (Data) {
+
+                        $('#spnplace').css("display", "block");
+                        console.log(Data.Data.length);
+
+                        for (var i = 0; i < Data.Data.length; i++) {
+
+
+                            $("#ordertbl").append("<tr><td>" + Data.Data[i].OrderId + "</td><td>" + Data.Data[i].FirstName + "</td><td>" + Data.Data[i].Price + "</td><td>" + Data.Data[i].Type + "</td><td>" + Data.Data[i].Status + "</td></tr>");
+                        }
+
+                    }
+                });
+            });
+
+
+            $('#downloadLink').click(function () {
+                $("#example1").tableHTMLExport({
+
+                    // csv, txt, json, pdf
+                    type: 'csv',
+
+                    // default file name
+                    filename: 'Report.csv',
+
+                    // for csv
+                    separator: ',',
+                    newline: '\r\n',
+                    trimContent: true,
+                    quoteFields: true,
+
+                    // CSS selector(s)
+                    ignoreColumns: '',
+                    ignoreRows: '',
+
+                    // your html table has html content?
+                    htmlContent: false,
+
+                    // debug
+                    consoleLog: false
+
+                });
+
+            });
+
+
+
+
+        });
+
+
+
+    </script>
+}

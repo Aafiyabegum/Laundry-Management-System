@@ -1,0 +1,166 @@
+﻿@model List<LaundryManagementSystem.Models.OrderModel>
+@{
+    ViewBag.Title = "ScheduleDelivery";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+
+
+<div class="span9">
+    <div class="content" style="
+    width: 1000px;
+">
+
+        <div class="module">
+            <div class="module-head">
+                <h3>Manage Delivery</h3>
+            </div>
+
+
+
+            <div class="module-body" style="
+    width: 1000px;
+">
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>
+                                <label class="control-label" style="padding-bottom: 12px;" for="basicinput">Order No</label>
+                            </th>
+                            <th>
+                                <div class="controls col-sm-2">
+                                    <select id="myOrderNo">
+                                        @foreach (var item in ViewBag.OrderNo)
+                                        {
+                                            <option value=@item>@item</option>
+                                        }
+                                    </select>
+                                </div>
+                            </th>
+                            <th>
+                                <label class="control-label" style="padding-bottom: 12px;" for="basicinput">Delivery Date</label>
+                            </th>
+                            <th>
+                                <input type="date" id="btnDeliveryDate" name="DeliveryDate" >
+                            </th>
+
+
+                        </tr>
+                    </thead>
+
+                </table>
+
+
+                <button type="submit" id="btnadd" style="width:150px;color:red;margin-right:150px" class=" upper pull-right"> <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Add </button>
+            </div>
+            <br />
+            <br />
+
+        </div>
+    </div>
+</div>
+
+
+
+<div class="span9">
+    <div class="content">
+
+        <div class="module" style="
+    width: 1000px;
+">
+            <div class="module-head">
+                <h3>Order Details</h3>
+            </div>
+            <div class="module-body">
+                <p>
+
+
+
+                </p>
+                <table class="table table-striped table-bordered table-condensed" id="ordertbl">
+                    <thead>
+                        <tr>
+                            <th>Order No</th>
+                            <th>Customer Name</th>
+                            <th>Order Date</th>
+                            <th>Delivery Date</th>
+                            <th>Status</th>
+                            <th>Last Updated</th>
+
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>@item.OrderId</td>
+                                <td>@item.FirstName @item.LastName</td>
+                                <td>@item.OrderDate</td>
+                                <td>@item.DeliveryDate.ToShortDateString()</td>
+                                <td>@item.Status</td>
+                                <td>@item.LastUpdatedDate</td>
+                            </tr>
+
+
+                        </tbody>
+                    }
+                </table>
+
+                <br />
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+@Scripts.Render("~/bundles/jquery")
+
+@section scripts {
+
+    <script type="text/javascript">
+
+
+
+        $(document).ready(function () {
+
+            $('#btnadd').click(function () {
+
+                 var url = '@Url.Action("ScheduleDelivery", "Admin")';
+
+                $.ajax({
+                    type: "POST",
+                    url: url,
+                    data: {
+                        OrderId: $('#myOrderNo').val(),
+                        DeliveryDate: $('#btnDeliveryDate').val()
+                    },
+                    success: function (Data) {
+                        console.log(Data);
+                        if (Data == true) {
+                            alert('Delivery Date successfully added.');
+                            location.reload();
+                        }
+                        else {
+                            alert("Submit failed. try again.");
+                        }
+                    }
+                });
+                return false;
+
+            });
+
+
+
+
+        });
+
+
+
+
+
+    </script>
+}

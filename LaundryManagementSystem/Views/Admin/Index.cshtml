@@ -1,0 +1,74 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+<!--/.span3-->
+<div class="span9">
+    <div class="content" >
+        <div class="btn-controls">
+            <div class="btn-box-row row-fluid">
+
+                </a><a href="#" class="btn-box big span4">
+                    <i class="icon-user"></i><b>@ViewBag.UserCount</b>
+                    <p class="text-muted">
+                        Total Users
+                    </p>
+                </a>
+                <a href="#" class="btn-box big span4">
+                    <i class="icon-money"></i><b>@ViewBag.TodayProfit </b>
+                    <p class="text-muted">
+                        Today Profit
+                    </p>
+                </a>
+                <a href="#" class="btn-box big span4">
+                    <i class="icon-money"></i><b>@ViewBag.MonthlyProfit </b>
+                    <p class="text-muted">
+                        Monthly Profit
+                    </p>
+                </a>
+               
+            </div>
+            <div class="btn-box-row row-fluid">
+                <div class="span12">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <a href="#" class="btn-box small span2">
+                                <i>@ViewBag.TotalNewOrderOrders</i><b>New Orders</b>
+
+                            </a>
+                            <a class="btn-box small span2">
+                                <i>@ViewBag.TotalCompletedOrders</i><b> Completed Orders</b>
+
+                            </a>
+                            <a class="btn-box small span2">
+                                <i>@ViewBag.TotalOngoingOrders</i><b> Ongoing Orders</b>
+
+                            </a>
+                            <a class="btn-box small span2">
+                                <i>@ViewBag.TotalDeliveredOrders</i><b> Delivered Orders</b>
+
+                            </a>
+                            <a class="btn-box small span2">
+                                <i>@ViewBag.CancelledOrders</i><b> Cancelled Orders</b>
+
+                            </a>
+                            <a class="btn-box small span2">
+                                <i>@ViewBag.TotalOrders</i><b>Total Orders</b>
+
+                            </a>
+
+                        </div>
+                    </div>
+                   
+                </div>
+
+            </div>
+        </div>
+        <!--/#btn-controls-->
+        <!--/.module-->
+    </div>
+    <!--/.content-->
+</div>
+<!--/.span9-->

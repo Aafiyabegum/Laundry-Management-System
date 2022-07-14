@@ -1,0 +1,52 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_UserLayoutPage.cshtml";
+}
+
+<!--/.span3-->
+<div class="span9">
+    <div class="content">
+        <div class="btn-controls">         
+            <div class="btn-box-row row-fluid">
+                <div class="span8">
+                    <div class="row-fluid">
+                        <div class="span12">
+                            <a href="#" class="btn-box small span4">
+                                <i>@ViewBag.NewOrderOrders</i><b>New Orders</b>
+
+                            </a>
+                            <a href="#" class="btn-box small span4">
+                                <i>@ViewBag.CompletedOrders</i><b> Completed Orders</b>
+
+                            </a>
+                            <a href="#" class="btn-box small span4">
+                                <i>@ViewBag.OngoingOrders</i><b> Ongoing Orders</b>
+
+                            </a>
+                            <a href="#" class="btn-box small span4" style="margin-left: 0px;">
+                                <i>@ViewBag.DeliveredOrders</i><b> Delivered Orders</b>
+                            </a>
+
+                            <a href="#" class="btn-box small span4" >
+                                <i>@ViewBag.CancelledOrder</i><b> Cancelled Orders</b>
+                            </a>
+
+                            <a href="#" class="btn-box small span4" >
+                                <i>@ViewBag.TotOrders</i><b> Orders</b>
+
+                            </a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!--/#btn-controls-->
+        <!--/.module-->
+    </div>
+    <!--/.content-->
+</div>
+<!--/.span9-->

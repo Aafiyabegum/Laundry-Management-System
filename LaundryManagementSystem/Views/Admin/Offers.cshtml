@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Offers";
+    Layout = "~/Views/Shared/_AdminLayoutPage.cshtml";
+}
+
+
+<div class="span9">
+    <div class="content">
+
+        @if (ViewBag.success !=null)
+        {
+            <div class="alert alert-success">
+                Successfully Offers or News Created
+            </div>
+        }
+
+        <div class="module">
+            <div class="module-head">
+                <h3>Add Offers Or Latest News</h3>
+            </div>
+            <div class="module-body">
+                <form action="/Admin/AddOffers" method="post">
+                    <div class="form-horizontal row-fluid">
+                        <div class="control-group">
+                            <label class="control-label" for="basicinput">Heading</label>
+                            <div class="controls">
+                                <input type="text" name="Heading" class="span8">
+                            </div>
+                        </div>
+                        <div class="control-group">
+                            <label class="control-label" for="basicinput">Description</label>
+                            <div class="controls">
+                                <textarea type="text" name="Description" class="span8"></textarea>
+                            </div>
+                        </div>
+
+                        <br />
+                        <br />
+                        <div>
+                            <button type="submit" name="submit" style="width:150px;color:red;margin-right:250px" class=" upper pull-right"> <i class="fa fa-paper-plane-o" aria-hidden="true"></i> Submit </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div><!--/.content-->
+</div><!--/.span9-->

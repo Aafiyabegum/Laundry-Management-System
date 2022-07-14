@@ -1,0 +1,57 @@
+﻿@model List<LaundryManagementSystem.Models.OrderModel>
+
+@{
+    ViewBag.Title = "Delivery";
+    Layout = "~/Views/Shared/_UserLayoutPage.cshtml";
+}
+
+
+
+
+<div class="span9">
+    <div class="content">
+
+        <div class="module" style="
+    width: 950px;
+">
+            <div class="module-head">
+                <h3>Track Delivery</h3>
+            </div>
+            <div class="module-body">
+                <p>
+
+
+
+                </p>
+                <table class="table table-striped table-bordered table-condensed" id="ordertbl">
+                    <thead>
+                        <tr>
+                            <th>Order No</th>
+                            <th>Type</th>
+                            <th>Status</th>
+                            <th>Delivery Date</th>
+
+
+                        </tr>
+                    </thead>
+                    @foreach (var item in Model)
+                    {
+                        <tbody>
+                            <tr>
+                                <td>@item.OrderId</td>
+                                <td>@item.Type</td>
+                                <td>@item.Status</td>
+                                <td>@item.DeliveryDate.ToShortDateString()</td>
+                            </tr>
+
+
+                        </tbody>
+                    }
+                </table>
+
+                <br />
+
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewBag.Title = "Contact";
+    Layout = "~/Views/Shared/_HomeLayoutPage.cshtml";
+}
+
+<br />
+<br />
+<br />
+
+
+<!-- ABOUT SECTION -->
+<div id="services" class="section services">
+    <div class="container">
+        <!--  -->
+        <div class="row">
+            <div class="col-sm-12 col-md-12">
+                <div class="page-title">
+                    <h2 class="lead">CONTACT US</h2>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row pbot-main" style="padding-left: 245px;">
+
+            <div class="col-sm-12 col-sm-8">
+
+                <form class="form-contact shake " id="contactForm" data-toggle="validator">
+                    <div class="form-group ">
+                        <input type="text" class="form-control" id="Name" name="Name" placeholder="Enter Name *" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="Email" name="EmailId" placeholder="Enter Email *" required>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="PhoneNo" name="PhoneNo" placeholder="Enter Phone Number">
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="Subject" name="Subject" placeholder="Enter Subject">
+                        <div class="help-block with-errors"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="Message" class="form-control" rows="5" name="Message" placeholder="Enter Your Message *" required></textarea>
+                        <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="form-group">
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-default">SEND MESSAGE</button>
+                    </div>
+                </form>
+
+
+            </div>
+
+
+
+        </div>
+
+
+
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/jquery")
+
+@section scripts {
+
+    <script type="text/javascript">
+
+
+
+        $(document).ready(function () {
+
+
+            $("#contactForm").submit(function () {
+
+                debugger;
+                var url = '@Url.Action("Contact", "Home")';
+
+                $.ajax({
+                    type: "GET",
+                    url: url,
+                    data: $("#contactForm").serialize(),
+                    success: function (data) {
+                        if (data == true) {
+                            alert('Your inquiry has been submitted successfully.');
+                            window.location.reload();
+                        }
+                        else {
+                            alert("Submit failed. Try again.");
+                        }
+                    }
+                });
+                return false;
+            });
+
+        });
+
+
+
+
+    </script>
+}

@@ -1,0 +1,180 @@
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.dll.config
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.pdb
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.exe
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.exe.config
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.rsp
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csi.exe
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csi.rsp
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.AppContext.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.exe
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.exe.config
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.rsp
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\VBCSCompiler.exe
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Antlr3.Runtime.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Newtonsoft.Json.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Helpers.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Mvc.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Optimization.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Razor.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Deployment.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Razor.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\WebGrease.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Helpers.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Mvc.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Optimization.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Razor.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Deployment.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Razor.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Newtonsoft.Json.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Antlr3.Runtime.pdb
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CopyComplete
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Dapper.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\Dapper.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\EPPlus.dll
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\bin\EPPlus.xml
+E:\Software Project\LaundryManagementSystem\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csprojAssemblyReference.cache
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.dll.config
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.pdb
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.exe
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.rsp
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csi.exe
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csi.rsp
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.exe
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Dapper.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\EPPlus.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Razor.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\WebGrease.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Dapper.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\EPPlus.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Razor.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CopyComplete
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.dll
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+C:\Users\DELL\Downloads\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csprojAssemblyReference.cache
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.dll.config
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\LaundryManagementSystem.pdb
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.exe
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.exe.config
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csc.rsp
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csi.exe
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\csi.rsp
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.AppContext.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.exe
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.exe.config
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\vbc.rsp
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Antlr3.Runtime.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Dapper.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\EPPlus.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Newtonsoft.Json.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Helpers.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Mvc.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Optimization.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Razor.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Deployment.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Razor.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\WebGrease.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Dapper.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\EPPlus.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Helpers.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Mvc.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Optimization.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.Razor.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Deployment.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\System.Web.WebPages.Razor.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Newtonsoft.Json.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Antlr3.Runtime.pdb
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csproj.CopyComplete
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.dll
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.pdb
+C:\Users\DELL\Desktop\AD 2\LaundryManagementSystem\LaundryManagementSystem\obj\Debug\LaundryManagementSystem.csprojAssemblyReference.cache

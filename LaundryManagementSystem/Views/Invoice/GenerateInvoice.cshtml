@@ -1,0 +1,129 @@
+﻿@model LaundryManagementSystem.Models.PriceModel
+
+
+@{
+    LaundryManagementSystem.Models.LoginModel user = new LaundryManagementSystem.Models.LoginModel();
+
+    Layout = null;
+
+    try
+    {
+        if (Session["UserDetails"] != null)
+        {
+            user = Session["UserDetails"] as LaundryManagementSystem.Models.LoginModel;
+        }
+    }
+    catch (Exception ex)
+    {
+
+    }
+
+
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>InvoiceBill</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+</head>
+
+<body style=" background: grey;  margin-top: 80px;  margin-bottom: 120px;">
+    <div>
+        @if (@user.UserName != null)
+        {
+            <h5 class="text-right col-md-11" style="color:white;margin-bottom: 20px;">Login as :<a style="color:coral"> @user.UserName </a></h5>
+        }
+
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <div class="row p-3">
+                                <div class="col-md-4" style="padding-top: 23px;">
+                                    <img src="~/Content/images/eee.png">
+                                </div>
+                              
+                                <div class="col-md-12 text-center" style="color:cornflowerblue; ">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  <p class="font-weight-bold mb-1">Laundry Invoice Bill</p>
+                                </div>
+                            </div>
+
+                           <div>
+                               <div class="col-sm-6">
+                                   <h6 style="font-size:small">Name    : @user.FirstName @user.LastName</h6>
+                                   <h6 style="font-size:small">Email Id : @user.EmailId</h6>
+                               </div>
+                           </div>
+                            <hr class="my-5">
+
+                            <div class="row p-5">
+                                <div class="col-md-12">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th class="border-0 text-uppercase small font-weight-bold">Item</th>
+                                                <th class="border-0 text-uppercase small font-weight-bold">Quantity</th>
+                                                <th class="border-0 text-uppercase small font-weight-bold">Cost</th>
+                                                <th class="border-0 text-uppercase small font-weight-bold">Total</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr>
+                                                <td>@Model.Type</td>
+                                                <td>@Model.Lbs</td>
+                                                <td>@Model.Price</td>
+                                                <td>@Model.Price</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <div class="d-flex flex-row-reverse bg-dark text-white p-4">
+                                <div class="py-3 px-5 text-right">
+                                    <div class="mb-2">Grand Total</div>
+                                    <div class="h2 font-weight-light">LKR @Model.Price</div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <br />
+        <br />
+        <div>
+            <div class="row">
+
+                <div class="col-md-2">
+                    <button class="btn btn-primary" style="margin-left:800px;width:200px" onclick="location.href='/Invoice/Back'">Back</button>
+
+                </div>
+                <div class="col-md-2">
+                    <button class="btn btn-warning" style="margin-left:800px;width:200px" onclick="location.href='/User/AddOrders?Id=@Model.Id&userId=@user.UserId'">Pay as Go</button>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
+
